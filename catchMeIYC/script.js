@@ -16,7 +16,7 @@ setInterval(() => {
     cir.style.background = changeColor();
     cir.style.top = `${pos()}%`;
     cir.style.left = `${pos()}%`;
-}, 550);
+}, 450);
 
 function stopGame() {
     alert("Gotcha! You win");
