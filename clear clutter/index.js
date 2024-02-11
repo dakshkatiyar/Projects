@@ -2,7 +2,7 @@ import fs from "fs/promises"
 import fsn from "fs"
 import path from "path"
 
-const basepath = "/Users/dakshkatiyar/Desktop/coding/web D/93"
+const basepath = "/Users/dakshkatiyar/Desktop/coding/Projects/clear clutter"
 
 let files = await fs.readdir(basepath)
 
